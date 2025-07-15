@@ -1,5 +1,7 @@
 # VisualEasier
 
+![Example output](documents/example_output.png)
+
 ## Introduction  
 *VisualEasier* is an interactive application designed for the visualization and interpretation of spatially resolved mineral chemistry data. Built using the R language and the Shiny framework, the tool enables the generation of high-quality single-element maps, RGB composites, and clustering-based segmentation of samples. It supports datasets from a variety of analytical methods such as SEM-EDS, Electron Microprobe (EPMA), MicroXRF, and LA-ICP-MS, as long as the input data is structured in comma-separated files (.csv) with pixel-based spatial reference.
 
