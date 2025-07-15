@@ -18,6 +18,26 @@ To function properly, the application requires a set of CSV files where each fil
 
 This structure supports data exported from MicroXRF, SEM/EDS, EPMA, and other spatially resolved techniques.
 
+## Building  
+The application was developed in the R programming language (version 4.3.2), using the Shiny framework for the user interface. The following R packages were used to support data handling, image processing, and visualization tasks:
+
+- `shiny`  
+- `shinythemes`  
+- `tidyverse`  
+- `readr`  
+- `reshape2`  
+- `raster`  
+- `data.table`  
+- `patchwork`  
+- `Cairo`  
+- `imager`  
+- `pals`  
+- `rsconnect`  
+- `rasterVis`  
+- `ggpubr`  
+
+All required packages can be installed directly from CRAN. The application is organized into a single R script containing both UI and server functions, and it can be launched locally in RStudio or published to a Shiny server.
+
 ## Usage  
 The application can be launched locally through RStudio or accessed via web browser (coming soon at **[https://apps.sgb.gov.br](https://apps.sgb.gov.br)**).  
 
