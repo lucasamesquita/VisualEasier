@@ -1,7 +1,5 @@
 # QMap — VisualEasier
 
-![Example output](documents/example_output.png)
-
 ## Introduction
 
 *QMap — VisualEasier* is an interactive web application for the processing, visualization, and quantitative interpretation of spatially resolved geochemical and mineral chemistry datasets. Built with R and the Shiny framework, the tool runs entirely in the browser and requires no coding experience.
@@ -74,6 +72,8 @@ The application will be available at **[https://apps.sgb.gov.br](https://apps.sg
 
 Saving a session produces a `.veproj.rds` file that stores the input matrices, element metadata, normalization values, selected variables, element clipping settings, and the active processing method. Cluster results, rendered maps, and report outputs are not stored and must be regenerated after reloading.
 
+![Example output](documents/example_output.png)
+
 ## Important Notes
 
 > ⚠️ The quality of visual and statistical outputs depends directly on the quality and consistency of the input data. Ensure all matrices are complete, share identical dimensions, and use a consistent decimal separator before loading.
@@ -102,4 +102,3 @@ If you use QMap — VisualEasier in published work, please cite:
 ## License
 
 The source code is licensed under the **BSD 3-Clause License**. See `LICENSE` for details.
-```
