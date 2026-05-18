@@ -67,7 +67,7 @@ COPY app.R /srv/shiny-server/
 EXPOSE 3838
 ```
 
-The application will be available at **[https://apps.sgb.gov.br](https://apps.sgb.gov.br)** (coming soon).
+The application will be available at **[https://apps.sgb.gov.br/qmap/](https://apps.sgb.gov.br/qmap/)**.
 
 ## Project File
 
@@ -91,14 +91,15 @@ A detailed user guide and video tutorials (in Portuguese) will be made available
 
 ## Contributors
 
-- Lucas Abud de Mesquita — [lucas.mesquita@sgb.gov.br](mailto:lucas.mesquita@sgb.gov.br)
 - Guilherme Ferreira da Silva — [guilherme.ferreira@sgb.gov.br](mailto:guilherme.ferreira@sgb.gov.br)
+- Lucas Abud de Mesquita — [lucas.mesquita@sgb.gov.br](mailto:lucas.mesquita@sgb.gov.br)
+- Marcos Vinícius Ferreira - [marcos.ferreira@sgb.gov.br](mailto:marcos.ferreira@sgb.gov.br)
 
 ## Citation
 
 If you use QMap — VisualEasier in published work, please cite:
 
-> VisualEasier: An interactive tool for geochemical and mineral chemistry data visualization and analysis. *Journal of the Geological Survey of Brazil.*
+> Mesquita, L.A.; Ferreira da Silva, G.; Rodrigues, J.B. 2025. VisualEasier: An interactive tool for geochemical and mineral chemistry data visualization and analysis. *Journal of the Geological Survey of Brazil.* DOI: [https://10.29396/jgsb.2025.v8.n3.2/](https://doi.org/10.29396/jgsb.2025.v8.n3.2)
 
 ## License
 
