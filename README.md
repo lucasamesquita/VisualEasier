@@ -38,8 +38,9 @@ This structure is directly compatible with export formats from MicroXRF, SEM-EDS
 
 R ≥ 4.3 and the following packages (all available on CRAN):
 
+### Imports
 ```r
-install.packages(c(
+c(
   "shiny", "shinythemes", "data.table", "dplyr", "tidyr", "stringr",
   "ggplot2", "patchwork", "Cairo", "imager", "pals", "ggpubr",
   "shinycssloaders", "scales", "png", "colourpicker", "RColorBrewer",
